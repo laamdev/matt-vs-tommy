@@ -18,7 +18,7 @@ import { getFormattedDate } from "@/lib/utils";
     </div>
     <div class="mt-16 flex flex-col items-center gap-8">
       {
-        races.map((race) => (
+        races.map((race: any) => (
           <div class="border bg-card rounded-lg w-full text-center px-2 py-4">
             <h3 class="text-xs text-[#DADADA]">
               {getFormattedDate(race.raceDate)}
