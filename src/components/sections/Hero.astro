@@ -1,0 +1,28 @@
+---
+import { Image } from "astro:assets";
+---
+
+<div class="relative w-fit mx-auto">
+  <Image
+    src="/images/matt.webp"
+    width={1080}
+    height={1080}
+    alt="Matt"
+    class="size-36 md:size-44 absolute top-0 -left-28 md:-left-36"
+  />
+
+  <h1
+    class="text-5xl z-10 relative flex flex-col md:text-7xl text-center font-black tracking-tight uppercase"
+  >
+    <span>Matt VS</span>
+    <span>Tommy</span>
+  </h1>
+
+  <Image
+    src="/images/tommy.webp"
+    width={1080}
+    height={1080}
+    alt="Matt"
+    class="size-36 md:size-44 absolute top-0 -right-28 md:-right-36"
+  />
+</div>

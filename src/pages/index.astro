@@ -1,0 +1,190 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Hero from "@/components/sections/Hero.astro";
+import data from "@f1";
+
+const { races }: any = data.find((season) => season.year === 2024);
+import { getFormattedDate } from "@/lib/utils";
+---
+
+<Layout title="Matt vs. Tommy">
+  <main class="max-w-5xl mx-auto">
+    <Hero />
+    <div
+      class="mt-16 text-5xl md:text-7xl font-black p-4 place-items-center rounded-lg grid grid-cols-2 bg-gradient-to-r from-violet-500 to-fuchsia-500"
+    >
+      <div>6</div>
+      <div>10</div>
+    </div>
+    <div class="mt-16 flex flex-col items-center gap-8">
+      {
+        races.map((race) => (
+          <div class="border bg-card rounded-lg w-full text-center px-2 py-4">
+            <h3 class="text-xs text-[#DADADA]">
+              {getFormattedDate(race.raceDate)}
+            </h3>
+            <h2 class="text-xl uppercase mb-8 font-bold tracking-tight">
+              {race.location}
+            </h2>
+            <div class="bg-muted p-2">
+              <div class="grid grid-cols-2 divide-x">
+                <div class="pr-4">
+                  <h4 class="text-sm font-semibold text-violet-500 uppercase">
+                    Matt
+                  </h4>
+                  <div class="grid grid-cols-3 gap-4 mt-4">
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.surprise.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">Surprise</p>
+                    </div>
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.flop.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">Flop</p>
+                    </div>
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.pole.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">Pole</p>
+                    </div>
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.p3.point ?? (
+                          <span class="text-xs">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">P3</p>
+                    </div>
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.p2.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">P2</p>
+                    </div>
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.p1.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">P1</p>
+                    </div>
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.crazy.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">Crazy</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="pl-4">
+                  <h4 class="text-fuchsia-500 text-sm font-semibold uppercase">
+                    Tommy
+                  </h4>
+                  <div class="grid grid-cols-3 gap-4 mt-4">
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.surprise.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">Surprise</p>
+                    </div>
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.flop.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">Flop</p>
+                    </div>
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.pole.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">Pole</p>
+                    </div>
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.p3.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">P3</p>
+                    </div>
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.p2.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">P2</p>
+                    </div>
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.p1.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">P1</p>
+                    </div>
+                    <div>
+                      <span class="text-lg">
+                        {race.predictions.matt.crazy.point ? (
+                          1
+                        ) : (
+                          <span class="text-sm">N/A</span>
+                        )}
+                      </span>
+                      <p class="text-xs text-[#797979]">Crazy</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </main>
+</Layout>
