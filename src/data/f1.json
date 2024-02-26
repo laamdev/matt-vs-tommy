@@ -1,0 +1,4753 @@
+[
+  {
+    "year": 2023,
+    "testing": {
+      "fullName": "Formula 1 Aramco Pre-Season Testing 2023",
+      "name": "Sakhir",
+      "country": "Bahrain",
+      "city": "Sakhir",
+      "circuit": "Bahrain International Circuit",
+      "website": "https://www.bahraingp.com",
+      "image": "Bahrain",
+      "startDate": "23",
+      "endDate": "25",
+      "month": "Feb"
+    },
+    "races": [
+      {
+        "fullName": "Formula 1 Gulf Air Bahrain Grand Prix 2023",
+        "name": "Bahrain",
+        "country": "Bahrain",
+        "city": "Sakhir",
+        "circuit": "Bahrain International Circuit",
+        "website": "https://www.bahraingp.com",
+        "image": "Bahrain",
+        "startDate": "03",
+        "startMonth": "Mar",
+        "endDate": "05",
+        "endMonth": "Mar",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2023-03-04",
+        "raceDate": "2023-03-05",
+        "shootout": null,
+        "sprint": null,
+        "pole": "Verstappen",
+        "p3": "Alonso",
+        "p2": "Perez",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Sargeant",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Ocon",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 1
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Alonso DNF",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Haas",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Piastri",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Sainz",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Albon outqualifies McLaren",
+              "point": 1
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 STC Saudi Arabian Grand Prix 2023",
+        "name": "Saudi Arabia",
+        "country": "Saudi Arabia",
+        "city": "Jeddah",
+        "circuit": "Jeddah Corniche Circuit",
+        "website": "https://saudiarabiangp.com",
+        "image": "SaudiArabia",
+        "startDate": "17",
+        "startMonth": "Mar",
+        "endDate": "19",
+        "endMonth": "Mar",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2023-03-18",
+        "raceDate": "2023-03-19",
+        "shootout": null,
+        "sprint": null,
+        "pole": "Perez",
+        "p3": "Alonso",
+        "p2": "Verstappen",
+        "p1": "Perez",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Sargeant",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "No safety cars",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Ocon",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Mercedes",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Sainz",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Double Williams points finish",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Rolex Australian Grand Prix 2023",
+        "name": "Australia",
+        "country": "Australia",
+        "city": "Melbourne",
+        "circuit": "Albert Park Circuit",
+        "website": "https://www.grandprix.com.au/",
+        "image": "Australia",
+        "startDate": "31",
+        "startMonth": "Mar",
+        "endDate": "02",
+        "endMonth": "Apr",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2023-04-01",
+        "raceDate": "2023-04-02",
+        "shootout": null,
+        "sprint": null,
+        "pole": "Verstappen",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Hulkenberg",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Perez",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Everyone lines in the gridbox correctly",
+              "point": 1
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "McLaren",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Sainz",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Alonso",
+              "point": 1
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Red Bull beaten in qualifying",
+              "point": 1
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Azerbaijan Grand Prix 2023",
+        "name": "Azerbaijan",
+        "country": "Azerbaijan",
+        "city": "Baku",
+        "circuit": "Baku City Circuit",
+        "website": "https://www.bakucitycircuit.com/",
+        "image": "Azerbaijan",
+        "startDate": "28",
+        "startMonth": "Apr",
+        "endDate": "30",
+        "endMonth": "Apr",
+        "isSprint": true,
+        "shootoutDate": "2023-04-29",
+        "sprintDate": "2023-04-29",
+        "qualifyingDate": "2023-04-28",
+        "raceDate": "2023-04-30",
+        "shootout": "Leclerc",
+        "sprint": "Perez",
+        "pole": "Leclerc",
+        "p3": "Leclerc",
+        "p2": "Verstappen",
+        "p1": "Perez",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Albon",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Tsunoda",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Leclerc",
+              "point": 2
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Leclerc",
+              "point": 1
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Final lap battle for the win",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Tsunoda",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Aston Martin",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": "Perez",
+              "point": 1
+            },
+            "p3": {
+              "prediction": "Rusell",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Double Red Bull DNF",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Crypto.com Miami Grand Prix 2023",
+        "name": "Miami",
+        "country": "United States",
+        "city": "Miami",
+        "circuit": "Miami International Autodrome",
+        "website": "https://f1miamigp.com/",
+        "image": "Miami",
+        "startDate": "05",
+        "startMonth": "May",
+        "endDate": "07",
+        "endMonth": "May",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2023-05-06",
+        "raceDate": "2023-05-07",
+        "pole": "Perez",
+        "p3": "Alonso",
+        "p2": "Perez",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Bottas",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Rusell",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 1
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "DeVries won't crash during the weekend",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Piastri",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Gasly",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Sainz",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Miss important overtake by showing a picture of the crowd",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Qatar Airways Gran Premio del Made in Italy e dell'Emilia-Romagna 2023",
+        "name": "Emilia Romagna",
+        "country": "Italy",
+        "city": "Imola",
+        "circuit": "Imola Circuit",
+        "website": "https://www.imolaf1.com/en/tickets",
+        "image": "Emilia",
+        "startDate": null,
+        "startMonth": null,
+        "endDate": null,
+        "endMonth": null,
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": null,
+        "raceDate": null,
+        "pole": null,
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": null
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": null
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Grand Prix de Monaco 2023",
+        "name": "Monaco",
+        "country": "Monaco",
+        "city": "Monaco",
+        "circuit": "Circuit de Monaco",
+        "website": "https://www.monaco-grand-prix.com/",
+        "image": "Monaco",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2023-05-27",
+        "raceDate": "2023-05-28",
+        "shootout": null,
+        "sprint": null,
+        "pole": "Verstappen",
+        "p3": "Ocon",
+        "p2": "Alonso",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Alonso",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "It won't rain during the race",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Ocon",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Sainz",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Red Bull has a strategy blunder",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 AWS Gran Premio de España 2023",
+        "name": "Spain",
+        "country": "Spain",
+        "city": "Barcelona",
+        "circuit": "Circuit de Barcelona-Catalunya",
+        "website": "https://www.circuitcat.com/en/",
+        "image": "Spain",
+        "startDate": "02",
+        "startMonth": "Jun",
+        "endDate": "04",
+        "endMonth": "Jun",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-06-03",
+        "raceDate": "2024-06-04",
+        "pole": "Verstappen",
+        "p3": "Rusell",
+        "p2": "Hamilton",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Stroll",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Piastri",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "The Spanish GP will be good",
+              "point": 1
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Guanyu",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "McLaren",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Red Bull finishes 39 clear",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Pirelli Grand Prix du Canada 2023",
+        "name": "Canada",
+        "country": "Canada",
+        "city": "Montreal",
+        "circuit": "Circuit Gilles Villeneuve",
+        "website": "https://www.gpcanada.ca/en/",
+        "image": "Canada",
+        "startDate": "16",
+        "startMonth": "Jun",
+        "endDate": "18",
+        "endMonth": "Jun",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-06-17",
+        "raceDate": "2024-06-18",
+        "shootout": null,
+        "sprint": null,
+        "pole": "Verstappen",
+        "p3": "Hamilton",
+        "p2": "Alonso",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Norris",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Magnussen",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Alonso",
+              "point": 1
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "At leat 4 DNFs",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Hamilton",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Latifi tribute banner",
+              "point": 1
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Rolex Grosser Preis Von Österreich 2023",
+        "name": "Austria",
+        "country": "Austria",
+        "city": "Spielberg",
+        "circuit": "Red Bull Ring",
+        "website": "https://www.redbullring.com/en/events-tickets/formula-1/",
+        "image": "Austria",
+        "startDate": "30",
+        "startMonth": "Jun",
+        "endDate": "02",
+        "endMonth": "Jul",
+        "isSprint": true,
+        "shootoutDate": "2023-07-01",
+        "sprintDate": "2023-07-01",
+        "qualifyingDate": "2023-06-30",
+        "raceDate": "2023-07-02",
+        "shootout": "Verstappen",
+        "sprint": "Verstappen",
+        "pole": "Verstappen",
+        "p3": "Perez",
+        "p2": "Leclerc",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Leclerc",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Ocon",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "sprint": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Albon makes Q3",
+              "point": 1
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Sainz",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Hulkenberg",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "sprint": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Sainz",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Someone else leads a lap other than Max Verstappen",
+              "point": 1
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Aramco British Grand Prix 2023",
+        "name": "United Kingdom",
+        "country": "Great Britain",
+        "city": "Silverstone",
+        "circuit": "Silverstone Circuit",
+        "website": "https://www.silverstone.co.uk/events/2024-formula-1-british-grand-prix/",
+        "image": "Britain",
+        "startDate": "07",
+        "startMonth": "Jul",
+        "endDate": "09",
+        "endMonth": "Jul",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-07-08",
+        "raceDate": "2024-07-09",
+        "pole": "Verstappen",
+        "p3": "Hamilton",
+        "p2": "Norris",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Ocon",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "There will be a red flag",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Hamilton",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Sainz",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Verstappen has an issue while leading",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Hungarian Grand Prix 2024",
+        "name": "Hungary",
+        "country": "Hungary",
+        "city": "Budapest",
+        "circuit": "Hungaroring",
+        "website": "https://www.hungaroring.hu/en/",
+        "image": "Hungary",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-07-20",
+        "raceDate": "2024-07-21",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Ricciardo",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Tsunoda",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Sargeant outqualifies Albon",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Ocon",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Hamilton",
+              "point": 2
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Perez",
+              "point": 1
+            },
+            "p2": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Perez makes Q3",
+              "point": 1
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 MSC Cruises Belgian Grand Prix 2023",
+        "name": "Belgium",
+        "country": "Belgium",
+        "city": "Spa-Francorchamps",
+        "circuit": "Circuit de Spa-Francorchamps",
+        "website": "https://www.spagrandprix.com/en/",
+        "image": "Belgium",
+        "startDate": "28",
+        "startMonth": "Jul",
+        "endDate": "30",
+        "endMonth": "Jul",
+        "isSprint": true,
+        "shootoutDate": "2023-07-29",
+        "sprintDate": "2023-07-29",
+        "qualifyingDate": "2023-07-28",
+        "raceDate": "2023-07-30",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Albon",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Haas",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "sprint": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "p3": {
+              "prediction": "Piastri",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Albon points",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Sargeant",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "sprint": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "p3": {
+              "prediction": "Piastri",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 1
+            },
+            "p1": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Top 5 in one of the qualifying sessions",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Heineken Dutch Grand Prix 2023",
+        "name": "Netherlands",
+        "country": "Netherlands",
+        "city": "Zandvoort",
+        "circuit": "Circuit Zandvoort",
+        "website": "https://www.dutchgp.com/en/",
+        "image": "Netherlands",
+        "startDate": "25",
+        "startMonth": "Aug",
+        "endDate": "27",
+        "endMonth": "Aug",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2023-08-25",
+        "raceDate": "2023-08-27",
+        "pole": "Verstappen",
+        "p3": "Verstappen",
+        "p2": "Alonso",
+        "p1": "Gasly",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Rusell",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Piastri",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Rusell",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "No safety cars",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Alfa Romeo",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Gasly",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "No DFNs",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Pirelli Gran Premio d’Italia 2023",
+        "name": "Italy",
+        "country": "Italy",
+        "city": "Monza",
+        "circuit": "Autodromo Nazionale Monza",
+        "website": "https://www.monzacircuit.com/en/",
+        "image": "Italy",
+        "startDate": "01",
+        "startMonth": "Sep",
+        "endDate": "03",
+        "endMonth": "Sep",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2023-09-01",
+        "raceDate": "2023-09-03",
+        "pole": "Sainz",
+        "p3": "Sainz",
+        "p2": "Perez",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Albon",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Crash between two drivers with an altercation",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Sainz",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Albon",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Sainz",
+              "point": 1
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 1
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Alfa Tauri gets a point",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Singapore Airlines Singapore Grand Prix 2024",
+        "name": "Singapore",
+        "country": "Singapore",
+        "city": "Singapore",
+        "circuit": "Marina Bay Street Circuit",
+        "website": "https://www.singaporegp.sg/",
+        "image": "Singapore",
+        "startDate": "15",
+        "startMonth": "Sep",
+        "endDate": "17",
+        "endMonth": "Mar",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-09-15",
+        "raceDate": "2024-09-17",
+        "pole": "Sainz",
+        "p3": "Hamilton",
+        "p2": "Norris",
+        "p1": "Sainz",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Stroll",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Verstappen",
+              "point": 2
+            },
+            "pole": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "4 or more DFNs",
+              "point": 1
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Bottas",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Hamilton",
+              "point": 1
+            },
+            "p2": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Both Alpine's in the points",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Lenovo Japanese Grand Prix 2023",
+        "name": "Japan",
+        "country": "Japan",
+        "city": "Suzuka",
+        "circuit": "Japan Suzuka International Racing Course",
+        "website": "https://www.suzukacircuit.jp/eng/f1",
+        "image": "Japan",
+        "startDate": "22",
+        "startMonth": "Sep",
+        "endDate": "24",
+        "endMonth": "Sep",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-04-06",
+        "raceDate": "2024-04-07",
+        "pole": "Verstappen",
+        "p3": "Piastri",
+        "p2": "Norris",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Hulkenberg",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Sainz",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Piastri",
+              "point": 1
+            },
+            "p2": {
+              "prediction": "Norris",
+              "point": 1
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Leclerc beats Sainz in the race",
+              "point": 1
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Magnussen",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Lawson in the points",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Qatar Airways Qatar Grand Prix 2024",
+        "name": "Qatar",
+        "country": "Qatar",
+        "city": "Lusail",
+        "circuit": "Lusail International Circuit",
+        "website": "https://www.qatargp.com/",
+        "image": "Qatar",
+        "startDate": "06",
+        "startMonth": "Oct",
+        "endDate": "08",
+        "endMonth": "Oct",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": null,
+        "raceDate": "2024-12-01",
+        "shootout": null,
+        "sprint": null,
+        "pole": "Verstappen",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Sargeant",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Lawson",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "sprint": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Ferrari won't get a podium",
+              "point": 1
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Gasly",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "sprint": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Alonso fails to make Q3",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Pirelli United States Grand Prix 2024",
+        "name": "USA",
+        "country": "United States",
+        "city": "Austin",
+        "circuit": "Circuit of the Americas",
+        "website": "https://www.thecircuit.com/",
+        "image": "UnitedStates",
+        "startDate": "20",
+        "startMonth": "Oct",
+        "endDate": "22",
+        "endMonth": "Oct",
+        "isSprint": true,
+        "shootoutDate": "2023-10-21",
+        "sprintDate": "2023-10-21",
+        "qualifyingDate": "2023-10-20",
+        "raceDate": "2023-10-22",
+        "pole": "Leclerc",
+        "p3": "Sainz",
+        "p2": "Norris",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Piastri",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "sprint": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "p3": {
+              "prediction": "Rusell",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Perez makes Q3",
+              "point": 1
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Ricciardo",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "sprint": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "p3": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Stroll makes Q2",
+              "point": 1
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Gran Premio de la Ciudad de México 2023",
+        "name": "Mexico",
+        "country": "Mexico",
+        "city": "Mexico City",
+        "circuit": "Autódromo Hermanos Rodríguez",
+        "website": "https://www.mexicogp.com/",
+        "image": "Mexico",
+        "startDate": "27",
+        "startMonth": "Oct",
+        "endDate": "29",
+        "endMonth": "Oct",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2023-10-28",
+        "raceDate": "2023-10-29",
+        "pole": "Leclerc",
+        "p3": "Leclerc",
+        "p2": "Hamilton",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Albon",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Hamilton",
+              "point": 1
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Verstappen wins by the biggest margin of the year",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Bottas",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Rusell",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Verstappen has a first lap incident",
+              "point": 1
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Rolex Grande Prêmio de Sao Paulo 2023",
+        "name": "Brazil",
+        "country": "Brazil",
+        "city": "São Paulo",
+        "circuit": "Autódromo José Carlos Pace",
+        "website": "https://www.braziliangp.com/",
+        "image": "Brazil",
+        "startDate": "03",
+        "startMonth": "Nov",
+        "endDate": "05",
+        "endMonth": "Nov",
+        "isSprint": true,
+        "shootoutDate": "2023-11-04",
+        "sprintDate": "2023-11-04",
+        "qualifyingDate": "2023-11-03",
+        "raceDate": "2023-11-05",
+        "shootout": "Norris",
+        "sprint": "Verstappen",
+        "pole": "Verstappen",
+        "p3": "Alonso",
+        "p2": "Norris",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Alfa Tauri",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "sprint": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Sprint will be better than the race",
+              "point": 1
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Alonso",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Red Bull",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "sprint": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "p3": {
+              "prediction": "Sainz",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Norris",
+              "point": 1
+            },
+            "p1": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Red Bull won't win the GP",
+              "point": 0
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Heineken Silver Las Vegas Grand Prix 2023",
+        "name": "Las Vegas",
+        "country": "United States",
+        "city": "Las Vegas",
+        "circuit": "Las Vegas Street Circuit",
+        "website": "https://www.lasvegasgp.com/",
+        "image": "LasVegas",
+        "startDate": "16",
+        "startMonth": "Nov",
+        "endDate": "18",
+        "endMonth": "Nov",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2023-11-18",
+        "raceDate": "2023-11-18",
+        "shootout": null,
+        "sprint": null,
+        "pole": "Leclerc",
+        "p3": "Perez",
+        "p2": "Leclerc",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "Leclerc",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Leclerc",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Leclerc",
+              "point": 1
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Difference in the way the qualify",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Ricciardo",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Alpine",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Sainz",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": "Leclerc",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Sainz",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Pirelli tyre controversy",
+              "point": 0
+            }
+          }
+        }
+      },
+
+      {
+        "fullName": "Formula 1 Etihad Airways Abu Dhabi Grand Prix 2023",
+        "name": "Abu Dhabi",
+        "country": "United Arab Emirates",
+        "city": "Yas Marina",
+        "circuit": "Yas Marina Circuit",
+        "website": "https://www.yasmarinacircuit.com/",
+        "image": "AbuDhabi",
+        "startDate": "24",
+        "startMonth": "Nov",
+        "endDate": "26",
+        "endMonth": "Nov",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2023-11-25",
+        "raceDate": "2023-11-26",
+        "pole": "Verstappen",
+        "p3": "Rusell",
+        "p2": "Leclerc",
+        "p1": "Verstappen",
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": "McLaren",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "Bottas",
+              "point": 1
+            },
+            "pole": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "shootout": {
+              "prediction": null,
+              "point": null
+            },
+            "sprint": {
+              "prediction": null,
+              "point": null
+            },
+            "p3": {
+              "prediction": "Hamilton",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Verstappen",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "crazy": {
+              "prediction": "Nobody retires",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Tsunoda",
+              "point": 1
+            },
+            "flop": {
+              "prediction": "Norris",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
+              "point": null
+            },
+            "sprint": {
+              "prediction": null,
+              "point": null
+            },
+            "p3": {
+              "prediction": "Rusell",
+              "point": 1
+            },
+            "p2": {
+              "prediction": "Perez",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Alfa Romeo getts some points",
+              "point": 0
+            }
+          }
+        }
+      }
+    ],
+    "season_predictions": {
+      "matt": {
+        "surprise": {
+          "prediction": null,
+          "point": null
+        },
+        "flop": {
+          "prediction": null,
+          "point": null
+        },
+        "loses_seat": {
+          "prediction": null,
+          "point": null
+        },
+        "new_winner": {
+          "prediction": null,
+          "point": null
+        },
+        "champion": {
+          "prediction": null,
+          "point": null
+        },
+        "crazy": {
+          "prediction": null,
+          "point": null
+        }
+      },
+      "tommy": {
+        "surprise": {
+          "prediction": null,
+          "point": null
+        },
+        "flop": {
+          "prediction": null,
+          "point": null
+        },
+        "loses_seat": {
+          "prediction": null,
+          "point": null
+        },
+        "new_winner": {
+          "prediction": null,
+          "point": null
+        },
+        "champion": {
+          "prediction": null,
+          "point": null
+        },
+        "crazy": {
+          "prediction": null,
+          "point": null
+        }
+      }
+    }
+  },
+  {
+    "year": 2024,
+    "races": [
+      {
+        "fullName": "Formula 1 Gulf Air Bahrain Grand Prix 2024",
+        "name": "Bahrain",
+        "country": "Bahrain",
+        "city": "Sakhir",
+        "circuit": "Bahrain International Circuit",
+        "website": "https://www.bahraingp.com",
+        "image": "Bahrain",
+        "startDate": "29",
+        "startMonth": "Feb",
+        "endDate": "02",
+        "endMonth": "Mar",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-02-01",
+        "raceDate": "2024-03-02",
+        "pole": null,
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 STC Saudi Arabian Grand Prix 2024",
+        "name": "Saudi Arabia",
+        "country": "Saudi Arabia",
+        "city": "Jeddah",
+        "circuit": "Jeddah Corniche Circuit",
+        "website": "https://saudiarabiangp.com",
+        "image": "SaudiArabia",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-03-08",
+        "raceDate": "2024-03-09",
+        "pole": null,
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Rolex Australian Grand Prix 2024",
+        "name": "Australia",
+        "country": "Australia",
+        "city": "Melbourne",
+        "circuit": "Albert Park Circuit",
+        "website": "https://www.grandprix.com.au/",
+        "image": "Australia",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-03-23",
+        "raceDate": "2024-03-24",
+        "pole": null,
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 MSC Cruises Japanese Grand Prix 2024",
+        "name": "Japan",
+        "country": "Japan",
+        "city": "Suzuka",
+        "circuit": "Japan Suzuka International Racing Course",
+        "website": "https://www.suzukacircuit.jp/eng/f1",
+        "image": "Japan",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-04-06",
+        "raceDate": "2024-04-07",
+        "pole": null,
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Lenovo Chinese Grand Prix 2024",
+        "name": "China",
+        "country": "China",
+        "city": "Shanghai",
+        "circuit": "Shanghai International Circuit",
+        "website": "https://www.grandprix.com.au/",
+        "image": "China",
+        "isSprint": true,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": null,
+        "raceDate": "2024-04-21",
+        "pole": null,
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Crypto.com Miami Grand Prix 2024",
+        "name": "Miami",
+        "country": "United States",
+        "city": "Miami",
+        "circuit": "Miami International Autodrome",
+        "website": "https://f1miamigp.com/",
+        "image": "Miami",
+        "isSprint": true,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": null,
+        "raceDate": "2024-05-05",
+        "pole": null,
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 MSC Cruises Gran Premio dell'Emilia-Romagna 2024",
+        "name": "Emilia Romagna",
+        "country": "Italy",
+        "city": "Imola",
+        "circuit": "Imola Circuit",
+        "website": "https://www.imolaf1.com/en/tickets",
+        "image": "Emilia",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-05-18",
+        "raceDate": "2024-05-19",
+        "pole": null,
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Grand Prix de Monaco 2024",
+        "name": "Monaco",
+        "country": "Monaco",
+        "city": "Monaco",
+        "circuit": "Circuit de Monaco",
+        "website": "https://www.monaco-grand-prix.com/",
+        "image": "Monaco",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-05-25",
+        "raceDate": "2024-05-26",
+        "pole": null,
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Grand Prix du Canada 2024",
+        "name": "Canada",
+        "country": "Canada",
+        "city": "Montreal",
+        "circuit": "Circuit Gilles Villeneuve",
+        "website": "https://www.gpcanada.ca/en/",
+        "image": "Canada",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-06-08",
+        "raceDate": "2024-06-09",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Aramco Gran Premio de España 2024",
+        "name": "Spain",
+        "country": "Spain",
+        "city": "Barcelona",
+        "circuit": "Circuit de Barcelona-Catalunya",
+        "website": "https://www.circuitcat.com/en/",
+        "image": "Spain",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-06-22",
+        "raceDate": "2024-06-23",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Qatar Airways Austrian Grand Prix 2024",
+        "name": "Austria",
+        "country": "Austria",
+        "city": "Spielberg",
+        "circuit": "Red Bull Ring",
+        "website": "https://www.redbullring.com/en/events-tickets/formula-1/",
+        "image": "Austria",
+        "isSprint": true,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": null,
+        "raceDate": "2024-06-30",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Qatar Airways British Grand Prix 2024",
+        "name": "United Kingdom",
+        "country": "Great Britain",
+        "city": "Silverstone",
+        "circuit": "Silverstone Circuit",
+        "website": "https://www.silverstone.co.uk/events/2024-formula-1-british-grand-prix/",
+        "image": "Britain",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-07-06",
+        "raceDate": "2024-07-07",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Hungarian Grand Prix 2024",
+        "name": "Hungary",
+        "country": "Hungary",
+        "city": "Budapest",
+        "circuit": "Hungaroring",
+        "website": "https://www.hungaroring.hu/en/",
+        "image": "Hungary",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-07-20",
+        "raceDate": "2024-07-21",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Rolex Belgian Grand Prix 2024",
+        "name": "Belgium",
+        "country": "Belgium",
+        "city": "Spa-Francorchamps",
+        "circuit": "Circuit de Spa-Francorchamps",
+        "website": "https://www.spagrandprix.com/en/",
+        "image": "Belgium",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-07-27",
+        "raceDate": "2024-07-28",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Heineken Dutch Grand Prix 2024",
+        "name": "Netherlands",
+        "country": "Netherlands",
+        "city": "Zandvoort",
+        "circuit": "Circuit Zandvoort",
+        "website": "https://www.dutchgp.com/en/",
+        "image": "Netherlands",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-08-24",
+        "raceDate": "2024-08-25",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Pirelli Gran Premio d’Italia 2024",
+        "name": "Italy",
+        "country": "Italy",
+        "city": "Monza",
+        "circuit": "Autodromo Nazionale Monza",
+        "website": "https://www.monzacircuit.com/en/",
+        "image": "Italy",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-08-31",
+        "raceDate": "2024-09-01",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Qatar Airways Azerbaijan Grand Prix 2024",
+        "name": "Azerbaijan",
+        "country": "Azerbaijan",
+        "city": "Baku",
+        "circuit": "Baku City Circuit",
+        "website": "https://www.bakucitycircuit.com/",
+        "image": "Azerbaijan",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-09-14",
+        "raceDate": "2024-09-15",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Singapore Airlines Singapore Grand Prix 2024",
+        "name": "Singapore",
+        "country": "Singapore",
+        "city": "Singapore",
+        "circuit": "Marina Bay Street Circuit",
+        "website": "https://www.singaporegp.sg/",
+        "image": "Singapore",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-09-21",
+        "raceDate": "2024-09-22",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Pirelli United States Grand Prix 2024",
+        "name": "USA",
+        "country": "United States",
+        "city": "Austin",
+        "circuit": "Circuit of the Americas",
+        "website": "https://www.thecircuit.com/",
+        "image": "UnitedStates",
+        "isSprint": true,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": null,
+        "raceDate": "2024-10-20",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Gran Premio de la Ciudad de México 2024",
+        "name": "Mexico",
+        "country": "Mexico",
+        "city": "Mexico City",
+        "circuit": "Autódromo Hermanos Rodríguez",
+        "website": "https://www.mexicogp.com/",
+        "image": "Mexico",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-10-26",
+        "raceDate": "2024-10-27",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Lenovo Grande Premio de Sao Paulo 2024",
+        "name": "Brazil",
+        "country": "Brazil",
+        "city": "São Paulo",
+        "circuit": "Autódromo José Carlos Pace",
+        "website": "https://www.braziliangp.com/",
+        "image": "Brazil",
+        "isSprint": true,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": null,
+        "raceDate": "2024-11-10",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Heineken Silver Las Vegas Grand Prix 2024",
+        "name": "Las Vegas",
+        "country": "United States",
+        "city": "Las Vegas",
+        "circuit": "Las Vegas Street Circuit",
+        "website": "https://www.lasvegasgp.com/",
+        "image": "LasVegas",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": null,
+        "raceDate": "2024-11-24",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Qatar Airways Qatar Grand Prix 2024",
+        "name": "Qatar",
+        "country": "Qatar",
+        "city": "Lusail",
+        "circuit": "Lusail International Circuit",
+        "website": "https://www.qatargp.com/",
+        "image": "Qatar",
+        "isSprint": true,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": null,
+        "raceDate": "2024-12-01",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      },
+      {
+        "fullName": "Formula 1 Etihad Airways Abu Dhabi Grand Prix 2024",
+        "name": "Abu Dhabi",
+        "country": "United Arab Emirates",
+        "city": "Yas Marina",
+        "circuit": "Yas Marina Circuit",
+        "website": "https://www.yasmarinacircuit.com/",
+        "image": "AbuDhabi",
+        "isSprint": false,
+        "shootoutDate": null,
+        "sprintDate": null,
+        "qualifyingDate": "2024-12-07",
+        "raceDate": "2024-12-08",
+        "pole": "",
+        "p3": null,
+        "p2": null,
+        "p1": null,
+        "predictions": {
+          "matt": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": null,
+              "point": null
+            },
+            "flop": {
+              "prediction": null,
+              "point": null
+            },
+            "pole": {
+              "prediction": null,
+              "point": null
+            },
+            "shootout": {
+              "prediction": null,
+              "point": 0
+            },
+            "sprint": {
+              "prediction": null,
+              "point": 0
+            },
+            "p3": {
+              "prediction": null,
+              "point": null
+            },
+            "p2": {
+              "prediction": null,
+              "point": null
+            },
+            "p1": {
+              "prediction": null,
+              "point": null
+            },
+            "crazy": {
+              "prediction": null,
+              "point": null
+            }
+          }
+        }
+      }
+    ],
+    "season_predictions": {
+      "matt": {
+        "surprise": {
+          "prediction": "Tsunoda",
+          "point": null
+        },
+        "flop": {
+          "prediction": "Alonso",
+          "point": null
+        },
+        "loses_seat": {
+          "prediction": "Perez",
+          "point": null
+        },
+        "new_winner": {
+          "prediction": "Norris",
+          "point": null
+        },
+        "champion": {
+          "prediction": "Norris",
+          "point": null
+        },
+        "crazy": {
+          "prediction": "Leclerc has more wins than poles",
+          "point": null
+        }
+      },
+      "tommy": {
+        "surprise": {
+          "prediction": "Tsunoda",
+          "point": null
+        },
+        "flop": {
+          "prediction": "Mercedes",
+          "point": null
+        },
+        "loses_seat": {
+          "prediction": null,
+          "point": null
+        },
+        "new_winner": {
+          "prediction": "Norris & Piastri",
+          "point": null
+        },
+        "champion": {
+          "prediction": "Verstappen",
+          "point": null
+        },
+        "crazy": {
+          "prediction": "Visa Cash App RB finishes ahead of Alpine in the standings",
+          "point": null
+        }
+      }
+    }
+  }
+]
