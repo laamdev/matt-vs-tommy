@@ -7,8 +7,8 @@ export interface RacePrediction {
   surprise: Prediction;
   flop: Prediction;
   pole: Prediction;
-  shootout: Prediction;
-  sprint: Prediction;
+  shootout?: Prediction;
+  sprint?: Prediction;
   p3: Prediction;
   p2: Prediction;
   p1: Prediction;

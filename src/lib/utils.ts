@@ -16,6 +16,7 @@ export const getFormattedDate = (dateString: string) => {
   const date = new Date(dateString);
 
   // Format the date
+  // @ts-expect-error
   const formattedDate = date.toLocaleDateString("en-US", options);
 
   // Add the ordinal suffix

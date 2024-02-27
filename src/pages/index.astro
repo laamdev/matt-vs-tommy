@@ -29,7 +29,7 @@ import UnitedStates from "@/icons/UnitedStates.astro";
 
 import { currentYear } from "@/lib/utils";
 import data from "@/data/f1.json";
-import type { Race, Prediction, Season } from "@/types";
+import type { Race, RacePrediction } from "@/types";
 import SeasonCard from "@/components/races/SeasonCard.astro";
 
 export const CIRCUIT_ICONS: Record<string, any> = {
@@ -58,19 +58,18 @@ export const CIRCUIT_ICONS: Record<string, any> = {
   UnitedStates,
 };
 
-const {
-  races,
-  season_predictions,
-}: { races: Race[]; season_predictions: Season } = data.find(
-  (season) => season.year === currentYear
-);
+const currentSeasonData = data.find((season) => season.year === currentYear);
 
-const mattRacesPredictions = races.map((race: Race) => race.predictions.matt);
-const tommyRacesPredictions = races.map((race: Race) => race.predictions.tommy);
+const mattRacesPredictions = currentSeasonData!.races.map(
+  (race) => race.predictions.matt
+);
+const tommyRacesPredictions = currentSeasonData!.races.map(
+  (race) => race.predictions.tommy
+);
 let mattRacePredictionsPoints = 0;
 let tommyRacePredictionsPoints = 0;
 
-mattRacesPredictions.forEach((prediction: Prediction) => {
+mattRacesPredictions.forEach((prediction: RacePrediction) => {
   Object.keys(prediction).forEach((key: string) => {
     // @ts-expect-error - I know this is a valid key
     let point: number = prediction[key].point;
@@ -81,7 +80,7 @@ mattRacesPredictions.forEach((prediction: Prediction) => {
   });
 });
 
-tommyRacesPredictions.forEach((prediction: Prediction) => {
+tommyRacesPredictions.forEach((prediction: RacePrediction) => {
   Object.keys(prediction).forEach((key) => {
     // @ts-expect-error - I know this is a valid key
     let point: number = prediction[key].point;
@@ -116,7 +115,9 @@ tommyRacesPredictions.forEach((prediction: Prediction) => {
       <section>
         <SectionHeading>Season predictions</SectionHeading>
         <div class="mt-8 flex flex-col items-center gap-8">
-          <SeasonCard season_predictions={season_predictions} />
+          <SeasonCard
+            season_predictions={currentSeasonData!.season_predictions}
+          />
         </div>
       </section>
 
@@ -124,10 +125,10 @@ tommyRacesPredictions.forEach((prediction: Prediction) => {
         <SectionHeading>Race predictions</SectionHeading>
         <div class="mt-8 flex flex-col items-center gap-8">
           {
-            races.map((race: Race) => {
-              const Icon = CIRCUIT_ICONS[race.image];
+            currentSeasonData!.races.map((race) => {
+              // // const Icon = CIRCUIT_ICONS[race.image];
 
-              return <RaceCard race={race} Icon={Icon} />;
+              return <RaceCard race={race as Race} />;
             })
           }
         </div>
