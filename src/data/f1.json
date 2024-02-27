@@ -9,8 +9,8 @@
       "circuit": "Bahrain International Circuit",
       "website": "https://www.bahraingp.com",
       "image": "Bahrain",
-      "startDate": "23",
-      "endDate": "25",
+      "startDay": "23",
+      "endDay": "25",
       "month": "Feb"
     },
     "races": [
@@ -22,9 +22,9 @@
         "circuit": "Bahrain International Circuit",
         "website": "https://www.bahraingp.com",
         "image": "Bahrain",
-        "startDate": "03",
+        "startDay": "03",
         "startMonth": "Mar",
-        "endDate": "05",
+        "endDay": "05",
         "endMonth": "Mar",
         "isSprint": false,
         "shootoutDate": null,
@@ -124,9 +124,9 @@
         "circuit": "Jeddah Corniche Circuit",
         "website": "https://saudiarabiangp.com",
         "image": "SaudiArabia",
-        "startDate": "17",
+        "startDay": "17",
         "startMonth": "Mar",
-        "endDate": "19",
+        "endDay": "19",
         "endMonth": "Mar",
         "isSprint": false,
         "shootoutDate": null,
@@ -226,9 +226,9 @@
         "circuit": "Albert Park Circuit",
         "website": "https://www.grandprix.com.au/",
         "image": "Australia",
-        "startDate": "31",
+        "startDay": "31",
         "startMonth": "Mar",
-        "endDate": "02",
+        "endDay": "02",
         "endMonth": "Apr",
         "isSprint": false,
         "shootoutDate": null,
@@ -328,9 +328,9 @@
         "circuit": "Baku City Circuit",
         "website": "https://www.bakucitycircuit.com/",
         "image": "Azerbaijan",
-        "startDate": "28",
+        "startDay": "28",
         "startMonth": "Apr",
-        "endDate": "30",
+        "endDay": "30",
         "endMonth": "Apr",
         "isSprint": true,
         "shootoutDate": "2023-04-29",
@@ -430,9 +430,9 @@
         "circuit": "Miami International Autodrome",
         "website": "https://f1miamigp.com/",
         "image": "Miami",
-        "startDate": "05",
+        "startDay": "05",
         "startMonth": "May",
-        "endDate": "07",
+        "endDay": "07",
         "endMonth": "May",
         "isSprint": false,
         "shootoutDate": null,
@@ -530,9 +530,9 @@
         "circuit": "Imola Circuit",
         "website": "https://www.imolaf1.com/en/tickets",
         "image": "Emilia",
-        "startDate": null,
+        "startDay": null,
         "startMonth": null,
-        "endDate": null,
+        "endDay": null,
         "endMonth": null,
         "isSprint": false,
         "shootoutDate": null,
@@ -728,15 +728,15 @@
         "circuit": "Circuit de Barcelona-Catalunya",
         "website": "https://www.circuitcat.com/en/",
         "image": "Spain",
-        "startDate": "02",
+        "startDay": "02",
         "startMonth": "Jun",
-        "endDate": "04",
+        "endDay": "04",
         "endMonth": "Jun",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
-        "qualifyingDate": "2024-06-03",
-        "raceDate": "2024-06-04",
+        "qualifyingDate": "2023-06-03",
+        "raceDate": "2023-06-04",
         "pole": "Verstappen",
         "p3": "Rusell",
         "p2": "Hamilton",
@@ -828,15 +828,15 @@
         "circuit": "Circuit Gilles Villeneuve",
         "website": "https://www.gpcanada.ca/en/",
         "image": "Canada",
-        "startDate": "16",
+        "startDay": "16",
         "startMonth": "Jun",
-        "endDate": "18",
+        "endDay": "18",
         "endMonth": "Jun",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
-        "qualifyingDate": "2024-06-17",
-        "raceDate": "2024-06-18",
+        "qualifyingDate": "2023-06-17",
+        "raceDate": "2023-06-18",
         "shootout": null,
         "sprint": null,
         "pole": "Verstappen",
@@ -930,9 +930,9 @@
         "circuit": "Red Bull Ring",
         "website": "https://www.redbullring.com/en/events-tickets/formula-1/",
         "image": "Austria",
-        "startDate": "30",
+        "startDay": "30",
         "startMonth": "Jun",
-        "endDate": "02",
+        "endDay": "02",
         "endMonth": "Jul",
         "isSprint": true,
         "shootoutDate": "2023-07-01",
@@ -1030,17 +1030,17 @@
         "country": "Great Britain",
         "city": "Silverstone",
         "circuit": "Silverstone Circuit",
-        "website": "https://www.silverstone.co.uk/events/2024-formula-1-british-grand-prix/",
+        "website": "https://www.silverstone.co.uk/events/2023-formula-1-british-grand-prix/",
         "image": "Britain",
-        "startDate": "07",
+        "startDay": "07",
         "startMonth": "Jul",
-        "endDate": "09",
+        "endDay": "09",
         "endMonth": "Jul",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
-        "qualifyingDate": "2024-07-08",
-        "raceDate": "2024-07-09",
+        "qualifyingDate": "2023-07-08",
+        "raceDate": "2023-07-09",
         "pole": "Verstappen",
         "p3": "Hamilton",
         "p2": "Norris",
@@ -1125,7 +1125,7 @@
         }
       },
       {
-        "fullName": "Formula 1 Hungarian Grand Prix 2024",
+        "fullName": "Formula 1 Hungarian Grand Prix 2023",
         "name": "Hungary",
         "country": "Hungary",
         "city": "Budapest",
@@ -1135,9 +1135,9 @@
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
-        "qualifyingDate": "2024-07-20",
-        "raceDate": "2024-07-21",
-        "pole": "",
+        "qualifyingDate": "2023-07-20",
+        "raceDate": "2023-07-21",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -1228,16 +1228,16 @@
         "circuit": "Circuit de Spa-Francorchamps",
         "website": "https://www.spagrandprix.com/en/",
         "image": "Belgium",
-        "startDate": "28",
+        "startDay": "28",
         "startMonth": "Jul",
-        "endDate": "30",
+        "endDay": "30",
         "endMonth": "Jul",
         "isSprint": true,
         "shootoutDate": "2023-07-29",
         "sprintDate": "2023-07-29",
         "qualifyingDate": "2023-07-28",
         "raceDate": "2023-07-30",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -1328,9 +1328,9 @@
         "circuit": "Circuit Zandvoort",
         "website": "https://www.dutchgp.com/en/",
         "image": "Netherlands",
-        "startDate": "25",
+        "startDay": "25",
         "startMonth": "Aug",
-        "endDate": "27",
+        "endDay": "27",
         "endMonth": "Aug",
         "isSprint": false,
         "shootoutDate": null,
@@ -1428,9 +1428,9 @@
         "circuit": "Autodromo Nazionale Monza",
         "website": "https://www.monzacircuit.com/en/",
         "image": "Italy",
-        "startDate": "01",
+        "startDay": "01",
         "startMonth": "Sep",
-        "endDate": "03",
+        "endDay": "03",
         "endMonth": "Sep",
         "isSprint": false,
         "shootoutDate": null,
@@ -1521,22 +1521,22 @@
         }
       },
       {
-        "fullName": "Formula 1 Singapore Airlines Singapore Grand Prix 2024",
+        "fullName": "Formula 1 Singapore Airlines Singapore Grand Prix 2023",
         "name": "Singapore",
         "country": "Singapore",
         "city": "Singapore",
         "circuit": "Marina Bay Street Circuit",
         "website": "https://www.singaporegp.sg/",
         "image": "Singapore",
-        "startDate": "15",
+        "startDay": "15",
         "startMonth": "Sep",
-        "endDate": "17",
+        "endDay": "17",
         "endMonth": "Mar",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
-        "qualifyingDate": "2024-09-15",
-        "raceDate": "2024-09-17",
+        "qualifyingDate": "2023-09-15",
+        "raceDate": "2023-09-17",
         "pole": "Sainz",
         "p3": "Hamilton",
         "p2": "Norris",
@@ -1628,15 +1628,15 @@
         "circuit": "Japan Suzuka International Racing Course",
         "website": "https://www.suzukacircuit.jp/eng/f1",
         "image": "Japan",
-        "startDate": "22",
+        "startDay": "22",
         "startMonth": "Sep",
-        "endDate": "24",
+        "endDay": "24",
         "endMonth": "Sep",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
-        "qualifyingDate": "2024-04-06",
-        "raceDate": "2024-04-07",
+        "qualifyingDate": "2023-04-06",
+        "raceDate": "2023-04-07",
         "pole": "Verstappen",
         "p3": "Piastri",
         "p2": "Norris",
@@ -1721,22 +1721,22 @@
         }
       },
       {
-        "fullName": "Formula 1 Qatar Airways Qatar Grand Prix 2024",
+        "fullName": "Formula 1 Qatar Airways Qatar Grand Prix 2023",
         "name": "Qatar",
         "country": "Qatar",
         "city": "Lusail",
         "circuit": "Lusail International Circuit",
         "website": "https://www.qatargp.com/",
         "image": "Qatar",
-        "startDate": "06",
+        "startDay": "06",
         "startMonth": "Oct",
-        "endDate": "08",
+        "endDay": "08",
         "endMonth": "Oct",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
         "qualifyingDate": null,
-        "raceDate": "2024-12-01",
+        "raceDate": "2023-12-01",
         "shootout": null,
         "sprint": null,
         "pole": "Verstappen",
@@ -1823,16 +1823,16 @@
         }
       },
       {
-        "fullName": "Formula 1 Pirelli United States Grand Prix 2024",
+        "fullName": "Formula 1 Pirelli United States Grand Prix 2023",
         "name": "USA",
         "country": "United States",
         "city": "Austin",
         "circuit": "Circuit of the Americas",
         "website": "https://www.thecircuit.com/",
         "image": "UnitedStates",
-        "startDate": "20",
+        "startDay": "20",
         "startMonth": "Oct",
-        "endDate": "22",
+        "endDay": "22",
         "endMonth": "Oct",
         "isSprint": true,
         "shootoutDate": "2023-10-21",
@@ -1930,9 +1930,9 @@
         "circuit": "Autódromo Hermanos Rodríguez",
         "website": "https://www.mexicogp.com/",
         "image": "Mexico",
-        "startDate": "27",
+        "startDay": "27",
         "startMonth": "Oct",
-        "endDate": "29",
+        "endDay": "29",
         "endMonth": "Oct",
         "isSprint": false,
         "shootoutDate": null,
@@ -2030,9 +2030,9 @@
         "circuit": "Autódromo José Carlos Pace",
         "website": "https://www.braziliangp.com/",
         "image": "Brazil",
-        "startDate": "03",
+        "startDay": "03",
         "startMonth": "Nov",
-        "endDate": "05",
+        "endDay": "05",
         "endMonth": "Nov",
         "isSprint": true,
         "shootoutDate": "2023-11-04",
@@ -2132,9 +2132,9 @@
         "circuit": "Las Vegas Street Circuit",
         "website": "https://www.lasvegasgp.com/",
         "image": "LasVegas",
-        "startDate": "16",
+        "startDay": "16",
         "startMonth": "Nov",
-        "endDate": "18",
+        "endDay": "18",
         "endMonth": "Nov",
         "isSprint": false,
         "shootoutDate": null,
@@ -2235,9 +2235,9 @@
         "circuit": "Yas Marina Circuit",
         "website": "https://www.yasmarinacircuit.com/",
         "image": "AbuDhabi",
-        "startDate": "24",
+        "startDay": "24",
         "startMonth": "Nov",
-        "endDate": "26",
+        "endDay": "26",
         "endMonth": "Nov",
         "isSprint": false,
         "shootoutDate": null,
@@ -2394,14 +2394,14 @@
         "circuit": "Bahrain International Circuit",
         "website": "https://www.bahraingp.com",
         "image": "Bahrain",
-        "startDate": "29",
+        "startDay": "29",
         "startMonth": "Feb",
-        "endDate": "02",
+        "endDay": "02",
         "endMonth": "Mar",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
-        "qualifyingDate": "2024-02-01",
+        "qualifyingDate": "2024-03-01",
         "raceDate": "2024-03-02",
         "pole": null,
         "p3": null,
@@ -2423,11 +2423,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -2461,11 +2461,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -2494,6 +2494,10 @@
         "circuit": "Jeddah Corniche Circuit",
         "website": "https://saudiarabiangp.com",
         "image": "SaudiArabia",
+        "startDay": "07",
+        "startMonth": "Mar",
+        "endDay": "09",
+        "endMonth": "Mar",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
@@ -2519,11 +2523,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -2557,11 +2561,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -2590,6 +2594,10 @@
         "circuit": "Albert Park Circuit",
         "website": "https://www.grandprix.com.au/",
         "image": "Australia",
+        "startDay": "22",
+        "startMonth": "Mar",
+        "endDay": "24",
+        "endMonth": "Mar",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
@@ -2615,11 +2623,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -2653,11 +2661,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -2686,6 +2694,10 @@
         "circuit": "Japan Suzuka International Racing Course",
         "website": "https://www.suzukacircuit.jp/eng/f1",
         "image": "Japan",
+        "startDay": "06",
+        "startMonth": "Apr",
+        "endDay": "07",
+        "endMonth": "Apr",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
@@ -2711,11 +2723,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -2749,11 +2761,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -2782,10 +2794,14 @@
         "circuit": "Shanghai International Circuit",
         "website": "https://www.grandprix.com.au/",
         "image": "China",
+        "startDay": "19",
+        "startMonth": "Apr",
+        "endDay": "21",
+        "endMonth": "Apr",
         "isSprint": true,
-        "shootoutDate": null,
-        "sprintDate": null,
-        "qualifyingDate": null,
+        "shootoutDate": "2024-04-19",
+        "sprintDate": "2024-04-20",
+        "qualifyingDate": "2024-04-20",
         "raceDate": "2024-04-21",
         "pole": null,
         "p3": null,
@@ -2807,11 +2823,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -2845,11 +2861,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -2878,10 +2894,14 @@
         "circuit": "Miami International Autodrome",
         "website": "https://f1miamigp.com/",
         "image": "Miami",
+        "startDay": "03",
+        "startMonth": "May",
+        "endDay": "05",
+        "endMonth": "May",
         "isSprint": true,
-        "shootoutDate": null,
-        "sprintDate": null,
-        "qualifyingDate": null,
+        "shootoutDate": "2024-05-03",
+        "sprintDate": "2024-05-04",
+        "qualifyingDate": "2024-05-04",
         "raceDate": "2024-05-05",
         "pole": null,
         "p3": null,
@@ -2903,11 +2923,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -2941,11 +2961,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -2974,6 +2994,10 @@
         "circuit": "Imola Circuit",
         "website": "https://www.imolaf1.com/en/tickets",
         "image": "Emilia",
+        "startDay": "17",
+        "startMonth": "May",
+        "endDay": "19",
+        "endMonth": "May",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
@@ -2999,11 +3023,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3037,11 +3061,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3070,6 +3094,10 @@
         "circuit": "Circuit de Monaco",
         "website": "https://www.monaco-grand-prix.com/",
         "image": "Monaco",
+        "startDay": "24",
+        "startMonth": "May",
+        "endDay": "26",
+        "endMonth": "May",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
@@ -3095,11 +3123,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3133,11 +3161,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3166,12 +3194,16 @@
         "circuit": "Circuit Gilles Villeneuve",
         "website": "https://www.gpcanada.ca/en/",
         "image": "Canada",
+        "startDay": "07",
+        "startMonth": "Jun",
+        "endDay": "09",
+        "endMonth": "Jun",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
         "qualifyingDate": "2024-06-08",
         "raceDate": "2024-06-09",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -3191,11 +3223,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3229,11 +3261,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3262,12 +3294,16 @@
         "circuit": "Circuit de Barcelona-Catalunya",
         "website": "https://www.circuitcat.com/en/",
         "image": "Spain",
+        "startDay": "21",
+        "startMonth": "Jun",
+        "endDay": "23",
+        "endMonth": "Jun",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
         "qualifyingDate": "2024-06-22",
         "raceDate": "2024-06-23",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -3287,11 +3323,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3325,11 +3361,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3358,12 +3394,16 @@
         "circuit": "Red Bull Ring",
         "website": "https://www.redbullring.com/en/events-tickets/formula-1/",
         "image": "Austria",
+        "startDay": "28",
+        "startMonth": "Jun",
+        "endDay": "30",
+        "endMonth": "Jun",
         "isSprint": true,
-        "shootoutDate": null,
-        "sprintDate": null,
-        "qualifyingDate": null,
+        "shootoutDate": "2024-06-28",
+        "sprintDate": "2024-06-29",
+        "qualifyingDate": "2024-06-29",
         "raceDate": "2024-06-30",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -3383,11 +3423,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3421,11 +3461,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3454,12 +3494,16 @@
         "circuit": "Silverstone Circuit",
         "website": "https://www.silverstone.co.uk/events/2024-formula-1-british-grand-prix/",
         "image": "Britain",
+        "startDay": "05",
+        "startMonth": "Jul",
+        "endDay": "07",
+        "endMonth": "Jul",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
         "qualifyingDate": "2024-07-06",
         "raceDate": "2024-07-07",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -3479,11 +3523,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3517,11 +3561,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3550,12 +3594,16 @@
         "circuit": "Hungaroring",
         "website": "https://www.hungaroring.hu/en/",
         "image": "Hungary",
+        "startDay": "19",
+        "startMonth": "Jul",
+        "endDay": "21",
+        "endMonth": "Jul",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
         "qualifyingDate": "2024-07-20",
         "raceDate": "2024-07-21",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -3575,11 +3623,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3613,11 +3661,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3646,12 +3694,16 @@
         "circuit": "Circuit de Spa-Francorchamps",
         "website": "https://www.spagrandprix.com/en/",
         "image": "Belgium",
+        "startDay": "27",
+        "startMonth": "Jul",
+        "endDay": "28",
+        "endMonth": "Jul",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
         "qualifyingDate": "2024-07-27",
         "raceDate": "2024-07-28",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -3671,11 +3723,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3709,11 +3761,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3742,12 +3794,16 @@
         "circuit": "Circuit Zandvoort",
         "website": "https://www.dutchgp.com/en/",
         "image": "Netherlands",
+        "startDay": "23",
+        "startMonth": "Aug",
+        "endDay": "25",
+        "endMonth": "Aug",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
         "qualifyingDate": "2024-08-24",
         "raceDate": "2024-08-25",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -3767,11 +3823,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3805,11 +3861,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3838,12 +3894,16 @@
         "circuit": "Autodromo Nazionale Monza",
         "website": "https://www.monzacircuit.com/en/",
         "image": "Italy",
+        "startDay": "30",
+        "startMonth": "Aug",
+        "endDay": "01",
+        "endMonth": "Sep",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
         "qualifyingDate": "2024-08-31",
         "raceDate": "2024-09-01",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -3863,11 +3923,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3901,11 +3961,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3934,12 +3994,16 @@
         "circuit": "Baku City Circuit",
         "website": "https://www.bakucitycircuit.com/",
         "image": "Azerbaijan",
+        "startDay": "13",
+        "startMonth": "Sep",
+        "endDay": "15",
+        "endMonth": "Sep",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
         "qualifyingDate": "2024-09-14",
         "raceDate": "2024-09-15",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -3959,11 +4023,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -3997,11 +4061,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4030,12 +4094,16 @@
         "circuit": "Marina Bay Street Circuit",
         "website": "https://www.singaporegp.sg/",
         "image": "Singapore",
+        "startDay": "20",
+        "startMonth": "Sep",
+        "endDay": "22",
+        "endMonth": "Sep",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
         "qualifyingDate": "2024-09-21",
         "raceDate": "2024-09-22",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -4055,11 +4123,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4093,11 +4161,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4126,12 +4194,16 @@
         "circuit": "Circuit of the Americas",
         "website": "https://www.thecircuit.com/",
         "image": "UnitedStates",
+        "startDay": "18",
+        "startMonth": "Oct",
+        "endDay": "20",
+        "endMonth": "Oct",
         "isSprint": true,
-        "shootoutDate": null,
-        "sprintDate": null,
-        "qualifyingDate": null,
+        "shootoutDate": "2024-10-18",
+        "sprintDate": "2024-10-19",
+        "qualifyingDate": "2024-10-20",
         "raceDate": "2024-10-20",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -4151,11 +4223,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4189,11 +4261,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4222,12 +4294,16 @@
         "circuit": "Autódromo Hermanos Rodríguez",
         "website": "https://www.mexicogp.com/",
         "image": "Mexico",
+        "startDay": "25",
+        "startMonth": "Oct",
+        "endDay": "27",
+        "endMonth": "Oct",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
         "qualifyingDate": "2024-10-26",
         "raceDate": "2024-10-27",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -4247,11 +4323,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4285,11 +4361,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4318,12 +4394,16 @@
         "circuit": "Autódromo José Carlos Pace",
         "website": "https://www.braziliangp.com/",
         "image": "Brazil",
+        "startDay": "01",
+        "startMonth": "Nov",
+        "endDay": "03",
+        "endMonth": "Nov",
         "isSprint": true,
-        "shootoutDate": null,
-        "sprintDate": null,
-        "qualifyingDate": null,
-        "raceDate": "2024-11-10",
-        "pole": "",
+        "shootoutDate": "2024-11-01",
+        "sprintDate": "2024-11-02",
+        "qualifyingDate": "2024-11-02",
+        "raceDate": "2024-11-03",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -4343,11 +4423,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4381,11 +4461,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4414,12 +4494,16 @@
         "circuit": "Las Vegas Street Circuit",
         "website": "https://www.lasvegasgp.com/",
         "image": "LasVegas",
+        "startDay": "24",
+        "startMonth": "Nov",
+        "endDay": "24",
+        "endMonth": "Nov",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
-        "qualifyingDate": null,
+        "qualifyingDate": "2024-11-23",
         "raceDate": "2024-11-24",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -4439,11 +4523,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4477,11 +4561,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4510,12 +4594,16 @@
         "circuit": "Lusail International Circuit",
         "website": "https://www.qatargp.com/",
         "image": "Qatar",
+        "startDay": "29",
+        "startMonth": "Nov",
+        "endDay": "01",
+        "endMonth": "Dec",
         "isSprint": true,
-        "shootoutDate": null,
-        "sprintDate": null,
-        "qualifyingDate": null,
+        "shootoutDate": "2024-11-29",
+        "sprintDate": "2024-11-30",
+        "qualifyingDate": "2024-11-30",
         "raceDate": "2024-12-01",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -4535,11 +4623,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4573,11 +4661,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4606,12 +4694,16 @@
         "circuit": "Yas Marina Circuit",
         "website": "https://www.yasmarinacircuit.com/",
         "image": "AbuDhabi",
+        "startDay": "06",
+        "startMonth": "Dec",
+        "endDay": "08",
+        "endMonth": "Dec",
         "isSprint": false,
         "shootoutDate": null,
         "sprintDate": null,
         "qualifyingDate": "2024-12-07",
         "raceDate": "2024-12-08",
-        "pole": "",
+        "pole": null,
         "p3": null,
         "p2": null,
         "p1": null,
@@ -4631,11 +4723,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4669,11 +4761,11 @@
             },
             "shootout": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "sprint": {
               "prediction": null,
-              "point": 0
+              "point": null
             },
             "p3": {
               "prediction": null,
@@ -4732,7 +4824,7 @@
           "point": null
         },
         "loses_seat": {
-          "prediction": null,
+          "prediction": "No one",
           "point": null
         },
         "new_winner": {

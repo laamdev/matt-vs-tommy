@@ -1,0 +1,88 @@
+---
+import type { Season } from "@/types";
+import { getFormattedDate } from "@/lib/utils";
+import PredictionItem from "@/components/races/PredictionItem.astro";
+
+interface Props {
+  season_predictions: Season;
+}
+
+const { season_predictions } = Astro.props;
+---
+
+<div class="border bg-card rounded-lg w-full text-center px-2 py-4">
+  <div class="bg-muted p-2 mt-8">
+    <div class="grid grid-cols-2 divide-x">
+      <div class="pr-4">
+        <h4 class="text-xl font-semibold text-violet-500 uppercase">Matt</h4>
+        <div class="grid grid-cols-2 gap-x-4 gap-y-8 mt-8">
+          <PredictionItem
+            point={season_predictions.matt.surprise.point}
+            prediction={season_predictions.matt.surprise.prediction}
+            label="Surprise"
+          />
+          <PredictionItem
+            point={season_predictions.matt.flop.point}
+            prediction={season_predictions.matt.flop.prediction}
+            label="Flop"
+          />
+          <PredictionItem
+            point={season_predictions.matt.loses_seat.point}
+            prediction={season_predictions.matt.loses_seat.prediction}
+            label="Loses Seat"
+          />
+          <PredictionItem
+            point={season_predictions.matt.new_winner.point}
+            prediction={season_predictions.matt.new_winner.prediction}
+            label="New Winner"
+          />
+          <PredictionItem
+            point={season_predictions.matt.champion.point}
+            prediction={season_predictions.matt.champion.prediction}
+            label="Champion"
+          />
+          <PredictionItem
+            point={season_predictions.matt.crazy.point}
+            prediction={season_predictions.matt.crazy.prediction}
+            label="Crazy"
+          />
+        </div>
+      </div>
+      <div class="pr-4">
+        <h4 class="text-xl font-semibold text-fuchsia-500 uppercase">Tommy</h4>
+        <div class="grid grid-cols-2 gap-x-4 gap-y-8 mt-8">
+          <PredictionItem
+            point={season_predictions.tommy.surprise.point}
+            prediction={season_predictions.tommy.surprise.prediction}
+            label="Surprise"
+          />
+          <PredictionItem
+            point={season_predictions.tommy.flop.point}
+            prediction={season_predictions.tommy.flop.prediction}
+            label="Flop"
+          />
+          <PredictionItem
+            point={season_predictions.tommy.loses_seat.point}
+            prediction={season_predictions.tommy.loses_seat.prediction}
+            label="Loses Seat"
+          />
+          <PredictionItem
+            point={season_predictions.tommy.new_winner.point}
+            prediction={season_predictions.tommy.new_winner.prediction}
+            label="New Winner"
+          />
+          <PredictionItem
+            point={season_predictions.tommy.champion.point}
+            prediction={season_predictions.tommy.champion.prediction}
+            label="Champion"
+          />
+          <PredictionItem
+            point={season_predictions.tommy.crazy.point}
+            prediction={season_predictions.tommy.crazy.prediction}
+            label="Crazy"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

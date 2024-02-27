@@ -1,7 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import RaceCard from "@/components/races/RaceCard.astro";
-import Hero from "@/components/sections/Hero.astro";
+import SectionHeading from "@/components/races/SectionHeading.astro";
 
 import AbuDhabi from "@/icons/AbuDhabi.astro";
 import Australia from "@/icons/Australia.astro";
@@ -27,8 +27,10 @@ import Singapore from "@/icons/Singapore.astro";
 import Spain from "@/icons/Spain.astro";
 import UnitedStates from "@/icons/UnitedStates.astro";
 
+import { currentYear } from "@/lib/utils";
 import data from "@/data/f1.json";
-import type { Race, Prediction } from "@/types";
+import type { Race, Prediction, Season } from "@/types";
+import SeasonCard from "@/components/races/SeasonCard.astro";
 
 export const CIRCUIT_ICONS: Record<string, any> = {
   AbuDhabi,
@@ -56,7 +58,12 @@ export const CIRCUIT_ICONS: Record<string, any> = {
   UnitedStates,
 };
 
-const { races }: any = data.find((season) => season.year === 2023);
+const {
+  races,
+  season_predictions,
+}: { races: Race[]; season_predictions: Season } = data.find(
+  (season) => season.year === currentYear
+);
 
 const mattRacesPredictions = races.map((race: Race) => race.predictions.matt);
 const tommyRacesPredictions = races.map((race: Race) => race.predictions.tommy);
@@ -90,24 +97,41 @@ tommyRacesPredictions.forEach((prediction: Prediction) => {
 ---
 
 <Layout title="Matt vs. Tommy">
-  <!-- <pre>{JSON.stringify(datax, null, 2)}</pre> -->
-
   <main class="max-w-5xl mx-auto">
-    <Hero />
-    <div
-      class="mt-16 text-5xl md:text-7xl font-black p-4 place-items-center rounded-lg grid grid-cols-2 bg-gradient-to-r from-violet-500 to-fuchsia-500"
-    >
-      <div>{mattRacePredictionsPoints}</div>
-      <div>{tommyRacePredictionsPoints}</div>
-    </div>
-    <div class="mt-16 flex flex-col items-center gap-8">
-      {
-        races.map((race: Race) => {
-          const Icon = CIRCUIT_ICONS[race.image];
+    <div class="mt-16">
+      <h2 class="text-4xl text-center font-semibold">
+        Formula 1 {currentYear} Season
+      </h2>
 
-          return <RaceCard race={race} Icon={Icon} />;
-        })
-      }
+      <section>
+        <SectionHeading>Total points</SectionHeading>
+        <div
+          class="mt-8 text-5xl md:text-7xl font-black p-4 place-items-center rounded-lg grid grid-cols-2 bg-gradient-to-r from-violet-500 to-fuchsia-500"
+        >
+          <div>{mattRacePredictionsPoints}</div>
+          <div>{tommyRacePredictionsPoints}</div>
+        </div>
+      </section>
+
+      <section>
+        <SectionHeading>Season predictions</SectionHeading>
+        <div class="mt-8 flex flex-col items-center gap-8">
+          <SeasonCard season_predictions={season_predictions} />
+        </div>
+      </section>
+
+      <section>
+        <SectionHeading>Race predictions</SectionHeading>
+        <div class="mt-8 flex flex-col items-center gap-8">
+          {
+            races.map((race: Race) => {
+              const Icon = CIRCUIT_ICONS[race.image];
+
+              return <RaceCard race={race} Icon={Icon} />;
+            })
+          }
+        </div>
+      </section>
     </div>
   </main>
 </Layout>

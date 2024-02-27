@@ -1,0 +1,25 @@
+---
+import { currentYear } from "@/lib/utils";
+
+import data from "@/data/f1.json";
+
+const previousSeasons = data
+  .filter((season) => season.year !== currentYear)
+  .map((season) => season.year)
+  .sort((a, b) => b - a);
+---
+
+<header>
+  <nav class="flex items-center gap-x-4 justify-center">
+    {
+      previousSeasons.map((season) => (
+        <a
+          href={`/seasons/${season}`}
+          class="rounded cursor-pointer bg-yellow-600 px-2 py-1 text-xs font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        >
+          {season}
+        </a>
+      ))
+    }
+  </nav>
+</header>

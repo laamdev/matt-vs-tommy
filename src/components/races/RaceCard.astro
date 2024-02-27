@@ -18,9 +18,12 @@ const { race, Icon } = Astro.props;
     </div> -->
     <div>
       <h3 class="text-xs text-[#DADADA]">
-        {getFormattedDate(race.raceDate)}
+        {race.startDay}
+        {race.startMonth !== race.endMonth && race.startMonth} - {race.endDay}
+        {race.endMonth}
+        <!-- {getFormattedDate(race.raceDate)} -->
       </h3>
-      <h2 class="text-xl mt-1 uppercase font-bold tracking-tight">
+      <h2 class="text-2xl mt-1 uppercase font-bold tracking-tight">
         {race.name}
       </h2>
       <h3 class="text-sm mt-2 text-[#797979]">

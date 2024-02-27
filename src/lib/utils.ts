@@ -31,3 +31,5 @@ export const getFormattedDate = (dateString: string) => {
 
   return formattedDate.replace(/\d+$/, (match) => `${match}${suffix}`);
 };
+
+export const currentYear = new Date().getFullYear();

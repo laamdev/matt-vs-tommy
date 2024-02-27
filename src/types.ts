@@ -15,6 +15,20 @@ export interface RacePrediction {
   crazy: Prediction;
 }
 
+export interface Season {
+  matt: SeasonPrediction;
+  tommy: SeasonPrediction;
+}
+
+export interface SeasonPrediction {
+  surprise: Prediction;
+  flop: Prediction;
+  loses_seat: Prediction;
+  new_winner: Prediction;
+  champion: Prediction;
+  crazy: Prediction;
+}
+
 export interface Race {
   fullName: string;
   name: string;
@@ -23,9 +37,9 @@ export interface Race {
   circuit: string;
   website: string;
   image: string;
-  startDate: string;
+  startDay: string;
   startMonth: string;
-  endDate: string;
+  endDay: string;
   endMonth: string;
   isSprint: boolean;
   shootoutDate?: string;
