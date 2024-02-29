@@ -1,0 +1,77 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import type { Race, RacePrediction } from "@/types";
+import data from "@/data/f1.json";
+import SectionHeading from "@/components/races/SectionHeading.astro";
+import SeasonCard from "@/components/races/SeasonCard.astro";
+import RaceCard from "@/components/races/RaceCard.astro";
+
+const currentSeason = data.find((season) => season.year === 2024);
+
+const mattRacesPredictions = currentSeason!.races.map(
+  (race) => race.predictions.matt
+);
+const tommyRacesPredictions = currentSeason!.races.map(
+  (race) => race.predictions.tommy
+);
+
+let mattRacePredictionsPoints = 0;
+let tommyRacePredictionsPoints = 0;
+
+mattRacesPredictions.forEach((prediction: RacePrediction) => {
+  Object.keys(prediction).forEach((key: string) => {
+    let point: number = prediction[key].point;
+
+    if (point !== null) {
+      mattRacePredictionsPoints += point;
+    }
+  });
+});
+
+tommyRacesPredictions.forEach((prediction: RacePrediction) => {
+  Object.keys(prediction).forEach((key) => {
+    let point: number = prediction[key].point;
+
+    if (point !== null) {
+      tommyRacePredictionsPoints += point;
+    }
+  });
+});
+---
+
+<BaseLayout title="2024 Season - Matt vs. Tommy">
+  <main class="max-w-5xl mx-auto">
+    <div class="mt-16">
+      <SectionHeading>F1 2024 Season</SectionHeading>
+
+      <section>
+        <div
+          class="mt-8 text-5xl md:text-7xl font-black p-4 place-items-center rounded-lg grid grid-cols-2 bg-gradient-to-r from-violet-500 to-fuchsia-500"
+        >
+          <div>{mattRacePredictionsPoints}</div>
+          <div>{tommyRacePredictionsPoints}</div>
+        </div>
+      </section>
+
+      <section>
+        <SectionHeading>Season predictions</SectionHeading>
+        <div class="mt-8 flex flex-col items-center gap-8">
+          <SeasonCard season_predictions={currentSeason!.season_predictions} />
+        </div>
+      </section>
+
+      <section>
+        <SectionHeading>Race predictions</SectionHeading>
+        <div class="mt-8 flex flex-col items-center gap-8">
+          {
+            currentSeason!.races.map((race) => {
+              // // const Icon = CIRCUIT_ICONS[race.image];
+
+              return <RaceCard race={race as Race} />;
+            })
+          }
+        </div>
+      </section>
+    </div>
+  </main>
+</BaseLayout>

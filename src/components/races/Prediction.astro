@@ -1,0 +1,47 @@
+---
+import PredictionItem from "@/components/races/PredictionItem.astro";
+import PredictionGrid from "@/components/races/PredictionGrid.astro";
+import type { Season } from "@/types";
+
+interface Props {
+  season_predictions: Season;
+}
+
+const { season_predictions }: Props = Astro.props;
+---
+
+<div class="bg-red-500">
+  <h4 class="text-xl font-semibold text-violet-500 uppercase">Matt</h4>
+  <PredictionGrid>
+    <PredictionItem
+      point={season_predictions.matt.surprise.point}
+      prediction={season_predictions.matt.surprise.prediction}
+      label="Surprise"
+    />
+    <PredictionItem
+      point={season_predictions.matt.flop.point}
+      prediction={season_predictions.matt.flop.prediction}
+      label="Flop"
+    />
+    <PredictionItem
+      point={season_predictions.matt.loses_seat.point}
+      prediction={season_predictions.matt.loses_seat.prediction}
+      label="Loses Seat"
+    />
+    <PredictionItem
+      point={season_predictions.matt.new_winner.point}
+      prediction={season_predictions.matt.new_winner.prediction}
+      label="New Winner"
+    />
+    <PredictionItem
+      point={season_predictions.matt.champion.point}
+      prediction={season_predictions.matt.champion.prediction}
+      label="Champion"
+    />
+    <PredictionItem
+      point={season_predictions.matt.crazy.point}
+      prediction={season_predictions.matt.crazy.prediction}
+      label="Crazy"
+    />
+  </PredictionGrid>
+</div>

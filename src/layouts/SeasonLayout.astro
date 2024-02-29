@@ -1,0 +1,22 @@
+---
+import "@/styles/globals.css";
+import "@fontsource-variable/space-grotesk";
+
+interface Props {
+  seasonTitle: string;
+}
+
+const { seasonTitle } = Astro.props;
+---
+
+<!-- <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head> -->
+<div>
+  <h2>{seasonTitle}</h2>
+</div>

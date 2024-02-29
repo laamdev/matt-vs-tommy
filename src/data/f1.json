@@ -2357,53 +2357,61 @@
     "season_predictions": {
       "matt": {
         "surprise": {
-          "prediction": null,
+          "prediction": "Piastri",
           "point": null
         },
         "flop": {
-          "prediction": null,
+          "prediction": "Gasly",
           "point": null
         },
         "loses_seat": {
-          "prediction": null,
+          "prediction": "De Vries",
           "point": null
         },
         "new_winner": {
-          "prediction": null,
+          "prediction": "No one",
+          "point": null
+        },
+        "meme": {
+          "prediction": "Alonso",
           "point": null
         },
         "champion": {
-          "prediction": null,
+          "prediction": "Leclerc",
           "point": null
         },
         "crazy": {
-          "prediction": null,
+          "prediction": "Alonso will 23-0 Stroll in qualifying",
           "point": null
         }
       },
       "tommy": {
         "surprise": {
-          "prediction": null,
+          "prediction": "Hulkenberg",
           "point": null
         },
         "flop": {
-          "prediction": null,
+          "prediction": "Gasly",
           "point": null
         },
         "loses_seat": {
-          "prediction": null,
+          "prediction": "No one",
           "point": null
         },
         "new_winner": {
-          "prediction": null,
+          "prediction": "No one",
+          "point": null
+        },
+        "meme": {
+          "prediction": "Sargeant",
           "point": null
         },
         "champion": {
-          "prediction": null,
+          "prediction": "Verstappen",
           "point": null
         },
         "crazy": {
-          "prediction": null,
+          "prediction": "Alonso will finish best of the rest",
           "point": null
         }
       }
@@ -2438,15 +2446,15 @@
         "predictions": {
           "matt": {
             "surprise": {
-              "prediction": null,
+              "prediction": "Hamilton",
               "point": null
             },
             "flop": {
-              "prediction": null,
+              "prediction": "Ocon",
               "point": null
             },
             "pole": {
-              "prediction": null,
+              "prediction": "Leclerc",
               "point": null
             },
             "shootout": {
@@ -2458,33 +2466,33 @@
               "point": null
             },
             "p3": {
-              "prediction": null,
+              "prediction": "Alonso",
               "point": null
             },
             "p2": {
-              "prediction": null,
+              "prediction": "Sainz",
               "point": null
             },
             "p1": {
-              "prediction": null,
+              "prediction": "Verstappen",
               "point": null
             },
             "crazy": {
-              "prediction": null,
+              "prediction": "Verstappen will win by less than 15s",
               "point": null
             }
           },
           "tommy": {
             "surprise": {
-              "prediction": null,
+              "prediction": "Alonso",
               "point": null
             },
             "flop": {
-              "prediction": null,
+              "prediction": "McLaren",
               "point": null
             },
             "pole": {
-              "prediction": null,
+              "prediction": "Verstappen",
               "point": null
             },
             "shootout": {
@@ -2496,22 +2504,36 @@
               "point": null
             },
             "p3": {
-              "prediction": null,
+              "prediction": "Perez",
               "point": null
             },
             "p2": {
-              "prediction": null,
+              "prediction": "Leclerc",
               "point": null
             },
             "p1": {
-              "prediction": null,
+              "prediction": "Verstappen",
               "point": null
             },
             "crazy": {
-              "prediction": null,
+              "prediction": "The Red Bull has a mechanical problem during the weekend",
               "point": null
             }
-          }
+          },
+          "audience": [
+            {
+              "prediction": "Both Mercedes DFN",
+              "point": 1
+            },
+            {
+              "prediction": "Double QR for Stake",
+              "point": 1
+            },
+            {
+              "prediction": "3 way fight for the win",
+              "point": 1
+            }
+          ]
         }
       },
       {
@@ -4879,6 +4901,10 @@
           "prediction": "Norris",
           "point": null
         },
+        "meme": {
+          "prediction": "Piastri",
+          "point": null
+        },
         "champion": {
           "prediction": "Norris",
           "point": null
@@ -4899,6 +4925,10 @@
         },
         "loses_seat": {
           "prediction": "No one",
+          "point": null
+        },
+        "meme": {
+          "prediction": "Haas",
           "point": null
         },
         "new_winner": {

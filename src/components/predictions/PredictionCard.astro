@@ -1,0 +1,152 @@
+---
+import type { Race } from "@/types";
+
+import PredictionItem from "@/components/races/PredictionItem.astro";
+import PredictionsContainer from "@/components/races/PredictionsContainer.astro";
+import PredictorName from "@/components/predictions/PredictorName.astro";
+import PredictionWrapper from "@/components/predictions/PredictionWrapper.astro";
+import PredictionGrid from "@/components/predictions/PredictionGrid.astro";
+
+interface Props {
+  race: Race;
+}
+
+const { race }: Props = Astro.props;
+---
+
+<div class="border bg-card rounded-lg w-full text-center px-2 py-4">
+  <div class="flex justify-center gap-x-2 items-center">
+    <!-- <div>
+      {Icon && <Icon />}
+    </div> -->
+    <div>
+      <h3 class="text-xs text-[#DADADA]">
+        {race.startDay}
+        {race.startMonth !== race.endMonth && race.startMonth} - {race.endDay}
+        {race.endMonth}
+        <!-- {getFormattedDate(race.raceDate)} -->
+      </h3>
+      <h2 class="text-2xl mt-1 uppercase font-bold tracking-tight">
+        {race.name}
+      </h2>
+      <h3 class="text-sm mt-2 text-[#797979]">
+        {race.circuit}
+      </h3>
+    </div>
+  </div>
+
+  <PredictionsContainer>
+    <PredictionWrapper>
+      <PredictorName className="text-violet-500">Matt</PredictorName>
+      <PredictionGrid>
+        <PredictionItem
+          point={race.predictions.matt.surprise.point}
+          prediction={race.predictions.matt.surprise.prediction}
+          label="Surprise"
+        />
+        <PredictionItem
+          point={race.predictions.matt.flop.point}
+          prediction={race.predictions.matt.flop.prediction}
+          label="Flop"
+        />
+        {
+          race.isSprint && (
+            <>
+              <PredictionItem
+                point={race.predictions.matt.shootout?.point}
+                prediction={race.predictions.matt.shootout?.prediction}
+                label="Shootout"
+              />
+              <PredictionItem
+                point={race.predictions.matt.sprint?.point}
+                prediction={race.predictions.matt.sprint?.prediction}
+                label="Sprint"
+              />
+            </>
+          )
+        }
+        <PredictionItem
+          point={race.predictions.matt.pole.point}
+          prediction={race.predictions.matt.pole.prediction}
+          label="Pole"
+        />
+        <PredictionItem
+          point={race.predictions.matt.p3.point}
+          prediction={race.predictions.matt.p3.prediction}
+          label="P3"
+        />
+        <PredictionItem
+          point={race.predictions.matt.p2.point}
+          prediction={race.predictions.matt.p2.prediction}
+          label="P2"
+        />
+        <PredictionItem
+          point={race.predictions.matt.p1.point}
+          prediction={race.predictions.matt.p1.prediction}
+          label="P1"
+        />
+        <PredictionItem
+          point={race.predictions.matt.crazy.point}
+          prediction={race.predictions.matt.crazy.prediction}
+          label="Crazy"
+        />
+      </PredictionGrid>
+    </PredictionWrapper>
+    <PredictionWrapper>
+      <PredictorName className="text-fuchsia-500">Tommy</PredictorName>
+      <div class="grid grid-cols-3 gap-4">
+        <PredictionItem
+          point={race.predictions.tommy.surprise.point}
+          prediction={race.predictions.tommy.surprise.prediction}
+          label="Surprise"
+        />
+        <PredictionItem
+          point={race.predictions.tommy.flop.point}
+          prediction={race.predictions.tommy.flop.prediction}
+          label="Flop"
+        />
+        {
+          race.isSprint && (
+            <>
+              <PredictionItem
+                point={race.predictions.tommy.shootout?.point}
+                prediction={race.predictions.tommy.shootout?.prediction}
+                label="Shootout"
+              />
+              <PredictionItem
+                point={race.predictions.tommy.sprint?.point}
+                prediction={race.predictions.tommy.sprint?.prediction}
+                label="Sprint"
+              />
+            </>
+          )
+        }
+        <PredictionItem
+          point={race.predictions.tommy.pole.point}
+          prediction={race.predictions.tommy.pole.prediction}
+          label="Pole"
+        />
+        <PredictionItem
+          point={race.predictions.tommy.p3.point}
+          prediction={race.predictions.tommy.p3.prediction}
+          label="P3"
+        />
+        <PredictionItem
+          point={race.predictions.tommy.p2.point}
+          prediction={race.predictions.tommy.p2.prediction}
+          label="P2"
+        />
+        <PredictionItem
+          point={race.predictions.tommy.p1.point}
+          prediction={race.predictions.tommy.p1.prediction}
+          label="P1"
+        />
+        <PredictionItem
+          point={race.predictions.tommy.crazy.point}
+          prediction={race.predictions.tommy.crazy.prediction}
+          label="Crazy"
+        />
+      </div>
+    </PredictionWrapper>
+  </PredictionsContainer>
+</div>

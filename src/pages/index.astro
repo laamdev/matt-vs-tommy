@@ -1,6 +1,5 @@
 ---
-import Layout from "@/layouts/Layout.astro";
-import RaceCard from "@/components/races/RaceCard.astro";
+import BaseLayout from "@/layouts/BaseLayout.astro";
 import SectionHeading from "@/components/races/SectionHeading.astro";
 
 import AbuDhabi from "@/icons/AbuDhabi.astro";
@@ -29,8 +28,7 @@ import UnitedStates from "@/icons/UnitedStates.astro";
 
 import { currentYear } from "@/lib/utils";
 import data from "@/data/f1.json";
-import type { Race, RacePrediction } from "@/types";
-import SeasonCard from "@/components/races/SeasonCard.astro";
+import type { RacePrediction } from "@/types";
 
 export const CIRCUIT_ICONS: Record<string, any> = {
   AbuDhabi,
@@ -58,20 +56,19 @@ export const CIRCUIT_ICONS: Record<string, any> = {
   UnitedStates,
 };
 
-const currentSeasonData = data.find((season) => season.year === currentYear);
+const mattRacesPredictions = data.map((season) =>
+  season.races.map((race) => race.predictions.matt)
+);
 
-const mattRacesPredictions = currentSeasonData!.races.map(
-  (race) => race.predictions.matt
+const tommyRacesPredictions = data.map((season) =>
+  season.races.map((race) => race.predictions.tommy)
 );
-const tommyRacesPredictions = currentSeasonData!.races.map(
-  (race) => race.predictions.tommy
-);
+
 let mattRacePredictionsPoints = 0;
 let tommyRacePredictionsPoints = 0;
 
-mattRacesPredictions.forEach((prediction: RacePrediction) => {
+mattRacesPredictions[0].forEach((prediction: RacePrediction) => {
   Object.keys(prediction).forEach((key: string) => {
-    // @ts-expect-error - I know this is a valid key
     let point: number = prediction[key].point;
 
     if (point !== null) {
@@ -80,9 +77,8 @@ mattRacesPredictions.forEach((prediction: RacePrediction) => {
   });
 });
 
-tommyRacesPredictions.forEach((prediction: RacePrediction) => {
+tommyRacesPredictions[0].forEach((prediction: RacePrediction) => {
   Object.keys(prediction).forEach((key) => {
-    // @ts-expect-error - I know this is a valid key
     let point: number = prediction[key].point;
 
     if (point !== null) {
@@ -91,28 +87,47 @@ tommyRacesPredictions.forEach((prediction: RacePrediction) => {
   });
 });
 
-// const res = await fetch("https://ergast.com/api/f1/2023/results.json?limit=30");
-// const datax = await res.json();
+let mattRacePredictionsPointsX = 0;
+let tommyRacePredictionsPointsX = 0;
+
+mattRacesPredictions[1].forEach((prediction: RacePrediction) => {
+  Object.keys(prediction).forEach((key: string) => {
+    let point: number = prediction[key].point;
+
+    if (point !== null) {
+      mattRacePredictionsPointsX += point;
+    }
+  });
+});
+
+tommyRacesPredictions[1].forEach((prediction: RacePrediction) => {
+  Object.keys(prediction).forEach((key) => {
+    let point: number = prediction[key].point;
+
+    if (point !== null) {
+      tommyRacePredictionsPointsX += point;
+    }
+  });
+});
 ---
 
-<Layout title="Matt vs. Tommy">
+<BaseLayout title="Matt vs. Tommy">
   <main class="max-w-5xl mx-auto">
     <div class="mt-16">
-      <h2 class="text-4xl text-center font-semibold">
-        Formula 1 {currentYear} Season
-      </h2>
+      <SectionHeading>
+        F1 {currentYear} Season
+      </SectionHeading>
 
       <section>
-        <SectionHeading>Total points</SectionHeading>
         <div
           class="mt-8 text-5xl md:text-7xl font-black p-4 place-items-center rounded-lg grid grid-cols-2 bg-gradient-to-r from-violet-500 to-fuchsia-500"
         >
-          <div>{mattRacePredictionsPoints}</div>
-          <div>{tommyRacePredictionsPoints}</div>
+          <div>{mattRacePredictionsPointsX}</div>
+          <div>{tommyRacePredictionsPointsX}</div>
         </div>
       </section>
 
-      <section>
+      <!-- <section>
         <SectionHeading>Season predictions</SectionHeading>
         <div class="mt-8 flex flex-col items-center gap-8">
           <SeasonCard
@@ -132,7 +147,19 @@ tommyRacesPredictions.forEach((prediction: RacePrediction) => {
             })
           }
         </div>
+      </section> -->
+    </div>
+    <div class="mt-16">
+      <SectionHeading>F1 2023 Season</SectionHeading>
+
+      <section>
+        <div
+          class="mt-8 text-5xl md:text-7xl font-black p-4 place-items-center rounded-lg grid grid-cols-2 bg-gradient-to-r from-violet-500 to-fuchsia-500"
+        >
+          <div>{mattRacePredictionsPoints}</div>
+          <div>{tommyRacePredictionsPoints}</div>
+        </div>
       </section>
     </div>
   </main>
-</Layout>
+</BaseLayout>

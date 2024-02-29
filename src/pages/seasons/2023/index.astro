@@ -1,0 +1,73 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import type { Race, RacePrediction } from "@/types";
+import data from "@/data/f1.json";
+import SectionHeading from "@/components/races/SectionHeading.astro";
+import SeasonCard from "@/components/races/SeasonCard.astro";
+import PredictionsList from "@/components/predictions/PredictionsList.astro";
+import TotalPointsCard from "@/components/predictions/TotalPointsCard.astro";
+import PredictionCard from "@/components/predictions/PredictionCard.astro";
+
+const currentSeason = data.find((season) => season.year === 2023);
+
+const mattRacesPredictions = currentSeason!.races.map(
+  (race) => race.predictions.matt
+);
+const tommyRacesPredictions = currentSeason!.races.map(
+  (race) => race.predictions.tommy
+);
+
+let mattRacePredictionsPoints = 0;
+let tommyRacePredictionsPoints = 0;
+
+mattRacesPredictions.forEach((prediction: RacePrediction) => {
+  Object.keys(prediction).forEach((key: string) => {
+    let point: number = prediction[key].point;
+
+    if (point !== null) {
+      mattRacePredictionsPoints += point;
+    }
+  });
+});
+
+tommyRacesPredictions.forEach((prediction: RacePrediction) => {
+  Object.keys(prediction).forEach((key) => {
+    let point: number = prediction[key].point;
+
+    if (point !== null) {
+      tommyRacePredictionsPoints += point;
+    }
+  });
+});
+---
+
+<BaseLayout title="2023 Season - Matt vs. Tommy">
+  <main class="max-w-5xl mx-auto">
+    <div class="mt-16">
+      <SectionHeading>Total Points</SectionHeading>
+
+      <TotalPointsCard
+        mattRacePredictionsPoints={mattRacePredictionsPoints}
+        tommyRacePredictionsPoints={tommyRacePredictionsPoints}
+      />
+
+      <section>
+        <SectionHeading>Season predictions</SectionHeading>
+        <SeasonCard season_predictions={currentSeason!.season_predictions} />
+      </section>
+
+      <section>
+        <SectionHeading>Race predictions</SectionHeading>
+        <PredictionsList>
+          {
+            currentSeason!.races.map((race) => {
+              // // const Icon = CIRCUIT_ICONS[race.image];
+
+              return <PredictionCard race={race as Race} />;
+            })
+          }
+        </PredictionsList>
+      </section>
+    </div>
+  </main>
+</BaseLayout>
