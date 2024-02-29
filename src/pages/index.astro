@@ -69,6 +69,7 @@ let tommyRacePredictionsPoints = 0;
 
 mattRacesPredictions[0].forEach((prediction: RacePrediction) => {
   Object.keys(prediction).forEach((key: string) => {
+    // @ts-expect-error
     let point: number = prediction[key].point;
 
     if (point !== null) {
@@ -79,6 +80,7 @@ mattRacesPredictions[0].forEach((prediction: RacePrediction) => {
 
 tommyRacesPredictions[0].forEach((prediction: RacePrediction) => {
   Object.keys(prediction).forEach((key) => {
+    // @ts-expect-error
     let point: number = prediction[key].point;
 
     if (point !== null) {

@@ -1,19 +1,30 @@
 ---
+import seasons from "@/data/f1.json";
+
 import BaseLayout from "@/layouts/BaseLayout.astro";
-import type { Race, RacePrediction } from "@/types";
-import data from "@/data/f1.json";
 import SectionHeading from "@/components/races/SectionHeading.astro";
 import SeasonCard from "@/components/races/SeasonCard.astro";
-import PredictionsList from "@/components/predictions/PredictionsList.astro";
-import TotalPointsCard from "@/components/predictions/TotalPointsCard.astro";
 import PredictionCard from "@/components/predictions/PredictionCard.astro";
 
-const currentSeason = data.find((season) => season.year === 2023);
+import type { Race, RacePrediction } from "@/types";
 
-const mattRacesPredictions = currentSeason!.races.map(
-  (race) => race.predictions.matt
-);
-const tommyRacesPredictions = currentSeason!.races.map(
+export const getStaticPaths = async () => {
+  return seasons.flatMap((season) => {
+    return [
+      {
+        params: { year: season.year.toString() },
+        props: {
+          season,
+        },
+      },
+    ];
+  });
+};
+
+const { season } = Astro.props;
+
+const mattRacesPredictions = season.races.map((race) => race.predictions.matt);
+const tommyRacesPredictions = season.races.map(
   (race) => race.predictions.tommy
 );
 
@@ -22,6 +33,7 @@ let tommyRacePredictionsPoints = 0;
 
 mattRacesPredictions.forEach((prediction: RacePrediction) => {
   Object.keys(prediction).forEach((key: string) => {
+    // @ts-expect-error
     let point: number = prediction[key].point;
 
     if (point !== null) {
@@ -32,6 +44,7 @@ mattRacesPredictions.forEach((prediction: RacePrediction) => {
 
 tommyRacesPredictions.forEach((prediction: RacePrediction) => {
   Object.keys(prediction).forEach((key) => {
+    // @ts-expect-error
     let point: number = prediction[key].point;
 
     if (point !== null) {
@@ -41,32 +54,38 @@ tommyRacesPredictions.forEach((prediction: RacePrediction) => {
 });
 ---
 
-<BaseLayout title="2023 Season - Matt vs. Tommy">
+<BaseLayout title=`${season.year} - Matt vs. Tommy`>
   <main class="max-w-5xl mx-auto">
     <div class="mt-16">
-      <SectionHeading>Total Points</SectionHeading>
+      <SectionHeading>{`F1 ${season.year} Season`}</SectionHeading>
 
-      <TotalPointsCard
-        mattRacePredictionsPoints={mattRacePredictionsPoints}
-        tommyRacePredictionsPoints={tommyRacePredictionsPoints}
-      />
+      <section>
+        <div
+          class="mt-8 text-5xl md:text-7xl font-black p-4 place-items-center rounded-lg grid grid-cols-2 bg-gradient-to-r from-violet-500 to-fuchsia-500"
+        >
+          <div>{mattRacePredictionsPoints}</div>
+          <div>{tommyRacePredictionsPoints}</div>
+        </div>
+      </section>
 
       <section>
         <SectionHeading>Season predictions</SectionHeading>
-        <SeasonCard season_predictions={currentSeason!.season_predictions} />
+        <div class="mt-8 flex flex-col items-center gap-8">
+          <SeasonCard season_predictions={season.season_predictions} />
+        </div>
       </section>
 
       <section>
         <SectionHeading>Race predictions</SectionHeading>
-        <PredictionsList>
+        <div class="mt-8 flex flex-col items-center gap-8">
           {
-            currentSeason!.races.map((race) => {
+            season.races.map((race) => {
               // // const Icon = CIRCUIT_ICONS[race.image];
 
               return <PredictionCard race={race as Race} />;
             })
           }
-        </PredictionsList>
+        </div>
       </section>
     </div>
   </main>
