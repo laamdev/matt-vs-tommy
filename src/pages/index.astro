@@ -63,35 +63,10 @@ const tommyRacesPredictions = data.map((season) =>
   season.races.map((race) => race.predictions.tommy)
 );
 
-let mattRacePredictionsPoints2024 = 0;
-let tommyRacePredictionsPoints2024 = 0;
-
-mattRacesPredictions[0].forEach((prediction: RacePrediction) => {
-  Object.keys(prediction).forEach((key: string) => {
-    // @ts-expect-error
-    let point: number = prediction[key].point;
-
-    if (point !== null) {
-      mattRacePredictionsPoints2024 += point;
-    }
-  });
-});
-
-tommyRacesPredictions[0].forEach((prediction: RacePrediction) => {
-  Object.keys(prediction).forEach((key) => {
-    // @ts-expect-error
-    let point: number = prediction[key].point;
-
-    if (point !== null) {
-      tommyRacePredictionsPoints2024 += point;
-    }
-  });
-});
-
 let mattRacePredictionsPoints2023 = 0;
 let tommyRacePredictionsPoints2023 = 0;
 
-mattRacesPredictions[1].forEach((prediction: RacePrediction) => {
+mattRacesPredictions[0].forEach((prediction: RacePrediction) => {
   Object.keys(prediction).forEach((key: string) => {
     // @ts-expect-error
     let point: number = prediction[key].point;
@@ -102,13 +77,38 @@ mattRacesPredictions[1].forEach((prediction: RacePrediction) => {
   });
 });
 
-tommyRacesPredictions[1].forEach((prediction: RacePrediction) => {
+tommyRacesPredictions[0].forEach((prediction: RacePrediction) => {
   Object.keys(prediction).forEach((key) => {
     // @ts-expect-error
     let point: number = prediction[key].point;
 
     if (point !== null) {
       tommyRacePredictionsPoints2023 += point;
+    }
+  });
+});
+
+let mattRacePredictionsPoints2024 = 0;
+let tommyRacePredictionsPoints2024 = 0;
+
+mattRacesPredictions[1].forEach((prediction: RacePrediction) => {
+  Object.keys(prediction).forEach((key: string) => {
+    // @ts-expect-error
+    let point: number = prediction[key].point;
+
+    if (point !== null) {
+      mattRacePredictionsPoints2024 += point;
+    }
+  });
+});
+
+tommyRacesPredictions[1].forEach((prediction: RacePrediction) => {
+  Object.keys(prediction).forEach((key) => {
+    // @ts-expect-error
+    let point: number = prediction[key].point;
+
+    if (point !== null) {
+      tommyRacePredictionsPoints2024 += point;
     }
   });
 });
