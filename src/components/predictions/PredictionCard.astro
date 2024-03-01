@@ -94,7 +94,7 @@ const { race }: Props = Astro.props;
     </PredictionWrapper>
     <PredictionWrapper>
       <PredictorName className="text-fuchsia-500">Tommy</PredictorName>
-      <div class="grid grid-cols-3 gap-4">
+      <PredictionGrid>
         <PredictionItem
           point={race.predictions.tommy.surprise.point}
           prediction={race.predictions.tommy.surprise.prediction}
@@ -146,7 +146,7 @@ const { race }: Props = Astro.props;
           prediction={race.predictions.tommy.crazy.prediction}
           label="Crazy"
         />
-      </div>
+      </PredictionGrid>
     </PredictionWrapper>
   </PredictionsContainer>
 </div>
