@@ -2455,53 +2455,15 @@
           "matt": {
             "surprise": {
               "prediction": "Hamilton",
-              "point": null
+              "point": 0
             },
             "flop": {
               "prediction": "Ocon",
-              "point": null
+              "point": 1
             },
             "pole": {
               "prediction": "Leclerc",
-              "point": null
-            },
-            "shootout": {
-              "prediction": null,
-              "point": null
-            },
-            "sprint": {
-              "prediction": null,
-              "point": null
-            },
-            "p3": {
-              "prediction": "Alonso",
-              "point": null
-            },
-            "p2": {
-              "prediction": "Sainz",
-              "point": null
-            },
-            "p1": {
-              "prediction": "Verstappen",
-              "point": null
-            },
-            "crazy": {
-              "prediction": "Verstappen will win by less than 15s",
-              "point": null
-            }
-          },
-          "tommy": {
-            "surprise": {
-              "prediction": "Alonso",
-              "point": null
-            },
-            "flop": {
-              "prediction": "McLaren",
-              "point": null
-            },
-            "pole": {
-              "prediction": "Verstappen",
-              "point": null
+              "point": 0
             },
             "shootout": {
               "prediction": null,
@@ -2513,33 +2475,71 @@
             },
             "p3": {
               "prediction": "Perez",
-              "point": null
+              "point": 0
             },
             "p2": {
               "prediction": "Leclerc",
-              "point": null
+              "point": 0
             },
             "p1": {
               "prediction": "Verstappen",
+              "point": 1
+            },
+            "crazy": {
+              "prediction": "Verstappen will win by less than 15s",
+              "point": 0
+            }
+          },
+          "tommy": {
+            "surprise": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "flop": {
+              "prediction": "McLaren",
+              "point": 0
+            },
+            "pole": {
+              "prediction": "Verstappen",
+              "point": 1
+            },
+            "shootout": {
+              "prediction": null,
               "point": null
+            },
+            "sprint": {
+              "prediction": null,
+              "point": null
+            },
+            "p3": {
+              "prediction": "Alonso",
+              "point": 0
+            },
+            "p2": {
+              "prediction": "Sainz",
+              "point": 0
+            },
+            "p1": {
+              "prediction": "Verstappen",
+              "point": 1
             },
             "crazy": {
               "prediction": "The Red Bull has a mechanical problem during the weekend",
-              "point": null
+              "point": 0
             }
           },
           "audience": [
             {
-              "prediction": "Both Mercedes DFN",
-              "point": 1
+              "prediction": "Both Mercedes DFNs",
+              "point": 0
             },
             {
-              "prediction": "Double QR for Stake",
-              "point": 1
+              "prediction": "Double Q3 for Stake",
+              "point": 0
             },
             {
               "prediction": "3 way fight for the win",
-              "point": 1
+              "point": 0
             }
           ]
         }
